@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Flask App</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/greet">Greet</a>
+            <a href="/bmi">BMI</a>
+            <a href="/age">Age Calculator</a>
+        </div>
+    </nav>
+
+    <main class="page-wrap">
+        <div class="card">
+            <h1>Welcome to Chintan{{ Chintan }}'s Website</h1>
+            <p class="subtitle">
+                A clean and modern Flask mini project with multiple interactive tools.
+            </p>
+
+            <div class="card-grid">
+                <a href="/about" class="feature-card">
+                    <h3>About</h3>
+                    <p>View a short introduction and basic information.</p>
+                </a>
+
+                <a href="/greet" class="feature-card">
+                    <h3>Greet App</h3>
+                    <p>Enter your name and get a personalized greeting.</p>
+                </a>
+
+                <a href="/bmi" class="feature-card">
+                    <h3>BMI Calculator</h3>
+                    <p>Calculate body mass index using height and weight.</p>
+                </a>
+
+                <a href="/age" class="feature-card">
+                    <h3>Age Calculator</h3>
+                    <p>Find your age and life stage from your birth year.</p>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

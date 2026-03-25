@@ -1,5 +1,8 @@
 # Flask Mini Web Applications 🚀
 
+🌐 **Live Demo:** https://flask-mini-web-apps.onrender.com/
+**Description:** Flask mini web apps with live deployment.
+
 This project is a collection of small web applications built using **Python Flask**.  
 It demonstrates basic backend development concepts such as routing, form handling, conditional logic, and template rendering.
 
@@ -82,7 +85,7 @@ flask-mini-apps/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/flask-mini-apps.git
+git clone https://github.com/chintan-02/flask-mini-web-apps.git
 ```
 
 Go to project folder:
@@ -146,6 +149,6 @@ Through this project I practiced:
 
 ## 👨‍💻 Author
 
-**Chintan Patel**
-
-AI / Data Science Enthusiast
+**Chintan Patel**  
+🔗 GitHub: https://github.com/chintan-02  
+🌐 Live App: https://flask-mini-web-apps.onrender.com/

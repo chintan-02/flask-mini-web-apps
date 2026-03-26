@@ -10,6 +10,29 @@ The project also includes a clean modern UI using custom CSS.
 
 ---
 
+## 📸 App Preview
+
+### 🏠 Dashboard
+
+### 🔥 Home Page
+![home_page](screenshots/home_page.png)
+
+### 📸 About Preview
+![about_me](screenshots/about_me.png)
+
+### 🧍 Age Calculator
+![age_calculator](screenshots/age_calculator.png)
+
+### BMI Calculator
+![BMI_calculator](screenshots/BMI_calculator.png)
+
+### 🔥 Greet App
+![greet_app](screenshots/greet_app.png)
+
+
+---
+
+
 ## 📌 Features
 
 This Flask project contains multiple mini apps:
